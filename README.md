@@ -51,7 +51,7 @@ nano ~/.zshrc
 . "/bin"
 . "/usr/bin"
 . "/usr/local/bin"
-
+eval "$(starship init zsh)"
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $/.custom_git_repo/zsh-autocomplete/zsh-autocomplete.plugin.zsh
